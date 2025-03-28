@@ -27,9 +27,8 @@ def translate(text, source_lang='en', target_lang='sw'):
         return "Unsupported language pair"
 
 # Test examples
-english_text = "Hello, how are you today?"
-swahili_text = "Habari yako leo?"
-
+english_text = 'I am going to the market'
+swahili_text = 'Ninacheza na mtoto'
 # Translate English to Swahili
 translated_sw = translate(english_text, 'en', 'sw')
 print(f"English: {english_text}")
@@ -43,8 +42,7 @@ print(f"English: {translated_en}")
 # Another test
 english_text2 = "The weather is nice today"
 swahili_text2 = "Nataka kununua mkate"
-english_text3 = 'I am going to the market'
-swahili_text3 = 'Ninacheza na mtoto'
+
 
 print("\nSecond test:")
 print(f"English: {english_text2}")
